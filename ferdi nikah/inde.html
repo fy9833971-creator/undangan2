@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ferdi wedding</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=work+sans:wght@100;400;600;700&display=swap" rel="stylesheet">
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center
+    text-white">
+        <main>
+            <h4>Kepada bapak/ibu/saudara/i, </h4>
+            <h1>FERDI & HAN SOO HEE </h1>
+            <P>Akan melangsungkan pernikahan dalam:</P>
+             <style>
+        .countdown { display: flex; justify-content: center; gap: 10px; }
+        .box { background: #eee; padding: 10px; border-radius: 5px; text-align: center; }
+        .box span { display: block; font-size: 20px; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <div class="countdown">
+        <div class="box"><span id="days">00</span><p>Hari</p></div>
+        <div class="box"><span id="hours">00</span><p>Jam</p></div>
+        <div class="box"><span id="minutes">00</span><p>Menit</p></div>
+        <div class="box"><span id="seconds">00</span><p>Detik</p></div>
+    </div>
+
+    <script>
+        const target = new Date("Feb 31, 2026 00:00:00").getTime();
+        setInterval(function() {
+            const now = new Date().getTime();
+            const diff = target - now;
+            
+            const d = Math.floor(diff / (1000 * 60 * 60 * 24));
+            const h = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const m = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const s = Math.floor((diff % (1000 * 60)) / 1000);
+
+            document.getElementById("days").innerText = d.toString().padStart(2, '0');
+            document.getElementById("hours").innerText = h.toString().padStart(2, '0');
+            document.getElementById("minutes").innerText = m.toString().padStart(2, '0');
+            document.getElementById("seconds").innerText = s.toString().padStart(2, '0');
+        }, 1000);
+    </script>
+<link rel="stylesheet" href="style.css">
+            
+            <a href="#undangan" class="btn btn-lg mt-4">Lihat undangan</a>
+
+        </main>
+    </section>
+    <style>
+        body { font-family: sans-serif; text-align: center; margin-top: 50px; }
+        .timer { font-size: 30px; font-weight: bold; color: #333; }
+    </style>
+</head>
+<body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+<section id="undangan">
+    <div class="gabungan-text">
+        
+    <h2>HAN SOO HEE</h2>
+    <p>dia gadis paling cantik cinta pertama ku</p>
+    </div>
+
+    <div class="foto2">
+    <img src="image/han so hee.webp" class="float-start" alt="foto cewek">
+    </div>
+
+    </section>
+
+    <style>
+        #undangan {
+            min-height: 100vh;
+            width: 100%;
+            background: url(image/background.webp);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 10%;
+            box-sizing: border-box;
+            
+        }
+
+        .gabungan-text{
+            display: flex;
+            flex-direction: column;
+            text-align: right;
+            animation: masukKanan 1.5s ease-out;
+        }
+        .gabungan-text h2 {
+            font-size: 5rem;
+            margin-left: 100px;
+            font-family: 'playfair display' ,serif;
+        }
+
+        .gabungan-text p {
+            font-size: 1.5rem;
+            margin: 0;
+            font-family: 'montserat' ,
+            san;
+        }
+        .foto2 {animation: masukKiri 1.5s ease-out;
+
+        }
+        .foto2 img {
+            width: 350px;
+            height: 350px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid gold;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        @keyframes masukKiri {
+        from { transform: translateX(-100%); opacity: 0; }
+        to { transform: translateX(0); opacity: 1; }
+    }
+
+    @keyframes masukKanan {
+        from { transform: translateX(100%); opacity: 0; }
+        to { transform: translateX(0); opacity: 1; }
+    }
+    </style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+   
+<section id="undangan2">
+    <div class="gabungan-text2">
+        
+    <h2>FERDIANSYAH HIDAYATULLAH</h2>
+    <p>Seorang Penulis novel dan Ahli fisika nuklir</p>
+    </div>
+
+    <div class="foto3">
+    <img src="image/Screenshot_14-2-2026_172215_www.instagram.com.jpeg" class="float-start" alt="foto cewek">
+    </div>
+
+    </section>
+
+    <style>
+        #undangan2 {
+            min-height: 100vh;
+            width: 100%;
+            background: url(image/bacground\ 2.avif);
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            align-items: center;
+            overflow: hidden;
+            padding: 0 10%;
+            box-sizing: border-box;
+            
+        }
+
+        .gabungan-text2{
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            animation: masukKanan 1.5s ease-out;
+        }
+        .gabungan-text2 h2 {
+            font-size: 45px;
+            line-height: 1.1;
+            margin: 0;
+            white-space: nowrap;
+            text-transform: uppercase;
+            font-family: 'playfair display' ,serif;
+        }
+
+        .gabungan-text2 p {
+            font-size: 1.5rem;
+            margin-top: 5px;
+            font-family: 'montserat' ,
+            san;
+        }
+
+        .foto3 {
+            animation: masukKiri 1.5s ease-out;
+        }
+        .foto3 img {
+            width: 350px;
+            height: 350px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid gold;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        @keyframes masukKiri {
+        from { transform: translateX(-100%); opacity: 0; }
+        to { transform: translateX(0); opacity: 1; }
+    }
+
+    @keyframes masukKanan {
+        from { transform: translateX(100%); opacity: 0; }
+        to { transform: translateX(0); opacity: 1; }
+    }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  
+<section id="undangan3">
+    <div class="box-acara">
+        <div class="header-acara">
+            <h3>Waktu & Lokasi</h3>
+            <div class="line"></div>
+        </div>
+
+        <div class="detail-wrapper">
+            <div class="item-acara">
+                <h4>Akad Nikah</h4>
+                <p>08.00 - 10.00 WIB</p>
+            </div>
+
+            <div class="item-acara">
+                <h4>Resepsi</h4>
+                <p>11.00 - Selesai</p>
+            </div>
+        </div>
+
+        <div class="lokasi">
+            <p><strong>Gedung Pernikahan Bekasi</strong></p>
+            <p>jl bintara 6</p>
+            <a href="https://maps.google.com" target="_blank" class="btn-maps">Buka Google Maps</a>
+        </div>
+    </div>
+    
+</section>
+<style>
+    #undangan3 {
+    min-height: 100vh;
+    width: 100%;
+    background: #fffaf5; /* Warna krem lembut agar beda dengan bab 2 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.box-acara {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+    border: 2px solid gold;
+    text-align: center;
+    max-width: 600px;
+    animation: masukBawah 1.5s ease-out;
+}
+
+.header-acara h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: #5d4037;
+}
+
+.line {
+    width: 80px;
+    height: 2px;
+    background: gold;
+    margin: 0 auto 30px;
+}
+
+.detail-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.item-acara h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.item-acara p {
+    font-family: 'Montserrat', sans-serif;
+    color: #666;
+}
+
+.btn-maps {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: gold;
+    color: #333;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.btn-maps:hover {
+    background: #d4af37;
+    color: white;
+    transform: scale(1.05);
+}
+
+@keyframes masukBawah {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+</style>
+
+
+
+<section class="guestbook">
+  <h2>Buku Tamu</h2>
+  <p>Berikan doa restu Anda di bawah ini:</p>
+  
+  <form id="comment-form">
+    <input type="text" id="name" placeholder="Nama Anda" required>
+    <textarea id="message" placeholder="Tulis ucapan & doa..." required></textarea>
+    <button type="submit">Kirim Ucapan</button>
+  </form>
+
+
+
+  <div id="comment-list">
+    <div class="comment-item">
+      <strong>FERDIANSYAH & HAN SOO HEE</strong>
+      <p>Selamat ya! Semoga menjadi keluarga sakinah mawaddah warahmah.</p>
+  <h3>Lagu Billie Eilish</h3>
+  <audio src="Billie Eilish - WILDFLOWER.mp3" controls ></audio>
+  <p>WILDFLOWER</p>
+</div>
+
+
+  </div>
+</section>
+
+<style>
+
+    .guestbook {
+       
+        min-height: 100vh;
+        width: 100vh;
+       margin: 20px auto;
+       padding: 20px;
+       font-family: 'Arial', sans-serif;
+}
+
+
+#comment-form input, #comment-form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+#comment-form button {
+  background-color: #d4a373; /* Warna dasar */
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease; /* Kunci biar animasinya halus */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+#comment-form button:hover {
+  background-color: #bc8a5f;
+  transform: translateY(-2px); 
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15); 
+}
+
+
+#comment-form button:active {
+  transform: translateY(0); 
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.com
+
+.comment-item {
+  background: url(image/background.jpg)
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 15px;
+  border-left: 4px solid #d4a373;
+}
+<
+
+</style>
+
+</body>
+</html>
